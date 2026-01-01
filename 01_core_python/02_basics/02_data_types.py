@@ -76,6 +76,39 @@ result = None
 print(result, type(result))
 
 
+# TYPE CHECKING
+x = 100
+y = 12.5
+z = 6 + 2j
+print(type(x))
+print(type(y))
+print(type(z))
+
+
+# TYPE CONVERSION (CASTING)
+num1 = int(9.7)
+num2 = float(10)
+num3 = str(500)
+
+print(num1, type(num1))
+print(num2, type(num2))
+print(num3, type(num3))
+
+
+# RANDOM NUMBERS
+import random
+
+rand_int = random.randint(1, 10)
+print(rand_int)
+
+rand_float = random.random()
+print(rand_float)
+
+items = ["Python", "Java", "C++"]
+rand_item = random.choice(items)
+print(rand_item)
+
+
 # -------------------- OUTPUT --------------------
 # Sanika <class 'str'>
 # 21 <class 'int'>
@@ -92,3 +125,12 @@ print(result, type(result))
 # bytearray(b'\x00\x00\x00\x00\x00') <class 'bytearray'>
 # <memory at 0x...> <class 'memoryview'>
 # None <class 'NoneType'>
+# <class 'int'>
+# <class 'float'>
+# <class 'complex'>
+# 9 <class 'int'>
+# 10.0 <class 'float'>
+# 500 <class 'str'>
+# 7
+# 0.731058578
+# Python
