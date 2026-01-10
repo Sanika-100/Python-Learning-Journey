@@ -105,7 +105,7 @@ print(num.zfill(5))
 # True
 # 2
 # 7
-# 13
+# 7
 # True
 # True
 # Python, Java, C++
