@@ -29,3 +29,14 @@ print("C#" in languages)
 print(languages[0:2])
 
 
+# ('Python', 'Java', 'c++')
+# Java
+# c++
+# ('Sanika', 22, True)
+# <class 'tuple'>
+# <class 'str'>
+# True
+# False
+# ('Python', 'Java')
+
+
