@@ -1,54 +1,31 @@
-# PYTHON TUPLES
-# Tuples are used to store multiple items in a single variable
-# Tuples are ordered, immutable, and allow duplicate values
+#Python Tuples basics
+
+languages = ("Python", "Java", "c++")
+print(languages)
+
+#Access items
+
+print(languages[1])
+
+#Negative index
+print(languages[-1])
+
+#Different Data Types
+info = ("Sanika", 22, True)
+print(info)
+
+#Single item tuple
+sample = ("AI",)
+print(type(sample))
+
+sample1 = ("AI")
+print(type(sample1))
+
+print("Java" in languages)
+
+print("C#" in languages)
+
+#Slicing
+print(languages[0:2])
 
 
-# CREATE A TUPLE
-subjects = ("Math", "Physics", "Chemistry")
-print(subjects)
-# Output: ('Math', 'Physics', 'Chemistry')
-
-
-# ACCESS TUPLE ITEMS
-print(subjects[0])
-# Output: Math
-
-print(subjects[-1])
-# Output: Chemistry
-
-
-# ALLOW DUPLICATES
-numbers = (1, 2, 2, 3)
-print(numbers)
-# Output: (1, 2, 2, 3)
-
-
-# TUPLE LENGTH
-print(len(subjects))
-# Output: 3
-
-
-# TUPLE WITH DIFFERENT DATA TYPES
-mixed = ("Python", 3.10, True)
-print(mixed)
-# Output: ('Python', 3.10, True)
-
-
-# TYPE OF TUPLE
-print(type(subjects))
-# Output: <class 'tuple'>
-
-
-# SINGLE ITEM TUPLE (IMPORTANT)
-single = ("AI",)
-print(single)
-# Output: ('AI',)
-
-
-# LOOP THROUGH TUPLE
-for item in subjects:
-    print(item)
-# Output:
-# Math
-# Physics
-# Chemistry
