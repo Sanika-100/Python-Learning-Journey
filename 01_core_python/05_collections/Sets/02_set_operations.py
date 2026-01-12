@@ -53,3 +53,24 @@ print(type(f))
 # Frozenset operations
 print(f.union({4, 5}))
 print(f.intersection({2, 3, 6}))
+
+#Output
+# {'Green', 'Red', 'Blue'}
+# {'Green', 'Yellow', 'Black', 'Red', 'Blue'}
+# {'Green', 'Yellow', 'Black', 'Blue'}
+# {'Green', 'Yellow', 'Black', 'Blue'}
+# Removed: Green
+# {'Yellow', 'Black', 'Blue'}
+# {1, 2, 3, 4, 5}
+# {1, 2, 3, 4, 5}
+# {3}
+# {3}
+# {1, 2}
+# {1, 2}
+# {1, 2, 4, 5}
+# {1, 2, 4, 5}
+# {20}
+# frozenset({1, 2, 3})
+# <class 'frozenset'>
+# frozenset({1, 2, 3, 4, 5})
+# frozenset({2, 3})
