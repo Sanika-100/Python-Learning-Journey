@@ -46,7 +46,7 @@ print(count)
 
 # 8️⃣ Lambda Function
 multiply = lambda a, b: a * b
-print(multiply(4, 5))
+print(multiply(6, 5))
 
 # Output:
-# 20
+# 30
